@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'booking.apps.BookingConfig'
 ]
 
 MIDDLEWARE = [
@@ -48,8 +49,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
-ROOT_URLCONF = 'https://github.com/Esatta2001/hotel1.git'
+#https://github.com/Esatta2001/hotel1.git
+ROOT_URLCONF = 'hotel.urls'
 
 TEMPLATES = [
     {
